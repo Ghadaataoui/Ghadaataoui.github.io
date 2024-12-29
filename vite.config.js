@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/Virtual_Art_Gallery',
+  base: '/', // For custom domain
   build: {
     rollupOptions: {
-      input: '/main.js',
+      input: './main.js',
     },
   },
 });
