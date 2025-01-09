@@ -3,7 +3,10 @@
   "author": {
     "name": "Ghada Ataoui & Eya Dridi"
   },
-  "scripts": {"deploy":"gh-pages -d dist"},
+  "scripts": {
+  "build": "vite build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "ammo.js": "^0.0.10",
     "ammojs-typed": "^1.0.6",
