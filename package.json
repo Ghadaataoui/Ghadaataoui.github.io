@@ -4,9 +4,9 @@
     "name": "Ghada Ataoui & Eya Dridi"
   },
   "scripts": {
-  "build": "vite build",
-  "deploy": "gh-pages -d dist"
-},
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "ammo.js": "^0.0.10",
     "ammojs-typed": "^1.0.6",
@@ -17,6 +17,7 @@
     "three-stdlib": "^2.21.8"
   },
   "devDependencies": {
+    "parcel": "^2.13.3",
     "vite": "^4.3.1"
   }
 }
