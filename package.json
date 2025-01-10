@@ -1,11 +1,7 @@
 {
-  "repository": "https://github.com/eyadrid/Virtual-Art-Gallery/tree/ghada_branch",
+  "repository": "https://github.com/Ghadaataoui/Ghadaataoui.github.io",
   "author": {
     "name": "Ghada Ataoui & Eya Dridi"
-  },
-  "scripts": {
-    "build": "vite build",
-    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "ammo.js": "^0.0.10",
